@@ -1,0 +1,33 @@
+{
+  "name": "t3chat-assistant",
+  "title": "T3.chat Assistant",
+  "description": "Take a screenshot, ask a question, and send to T3.chat",
+  "icon": "command-icon.png",
+  "author": "you",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Screenshot to T3.chat",
+      "description": "Take a screenshot, ask a question, and send to T3.chat",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "~20.5.0",
+    "@raycast/eslint-config": "1.0.6",
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6",
+    "react": "18.2.0"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
