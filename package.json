@@ -1,16 +1,17 @@
 {
   "name": "t3chat-assistant",
-  "title": "T3.chat Assistant",
+  "title": "T3 Chat",
   "description": "Take a screenshot, ask a question, and send to T3.chat",
-  "icon": "command-icon.png",
-  "author": "you",
+  "icon": "./assets/logo.png",
+  "author": "gabriel_alfonzo",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Screenshot to T3.chat",
+      "title": "New Chat",
       "description": "Take a screenshot, ask a question, and send to T3.chat",
-      "mode": "view"
+      "mode": "view",
+      "icon": "./assets/logo.png"
     }
   ],
   "dependencies": {
